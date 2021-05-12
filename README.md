@@ -5,6 +5,24 @@ The library works on pretty much all Arduino and Teensy boards, like the Arduino
 
 It uses a MIDI-over-USB connection to connect to your computer, and can be used in your favourite DJ or DAW software.
 
+## Control Surface
+|The MIDI Controller library has been obsoleted by its successor, the [**Control Surface**](https://github.com/tttapa/Control-Surface) library.  |
+|---|
+
+It has more features, a better architecture, unit tests, continuous integration, clearer documentation, support for more and newer Arduino boards, etc.  
+It adds support for MIDI input, SysEx, the Mackie Control Universal protocol, VU meters, LEDs, OLED displays, audio over USB, MIDI over Bluetooth, MIDI routing ...
+
+<https://github.com/tttapa/Control-Surface>
+
+***
+
+## Support
+
+I no longer offer support for the MIDI Controller library, and I won't be adding any new features.  
+For new projects, it is **highly recommended** to use the Control Surface library instead of the MIDI Controller library.  
+Control Surface is well-supported, and new features are added regularly. It completely replaces MIDI Controller.    
+If you need help porting your existing MIDI Controller project to Control Surface, feel free to open an issue.
+
 ## Download
 Download the latest stable version [here](https://github.com/tttapa/MIDI_controller/releases/latest).  
 Please read the [installation instructions](#installation) first.  
